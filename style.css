@@ -1,0 +1,42 @@
+#title {
+  color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+
+.color{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block
+}
+
+#pixel-board{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-color: teal;
+  border: 1px solid black;
+}
+
+.pixel{
+  display: inline-block;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin-top: 4px;
+}
+
+#clear-board{
+  width: 60px;
+  height: 20px;
+}
+
+#generate-board{
+  width: 60px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+#board-size{
+  margin-top: -5px;
+}
