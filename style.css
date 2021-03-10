@@ -1,0 +1,78 @@
+body {
+  background-color: lightpink;
+}
+
+#title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+#pencil {
+  text-align: center;
+  font-size: 40px;
+}
+
+#color-palette {
+  text-align: center;
+  display: block;
+}
+
+.color {
+  width: 100px;
+  border: 1px solid black;
+  height: 100px;
+  display: inline-block;
+  transition: transform 1s;
+}
+
+#black {
+  background-color: black;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#pixel-board {
+  text-align: center;
+  display: block;
+  width: 250px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.pixel {
+  width: 40px;
+  border: 1px solid black;
+  height: 40px;
+  display: inline-block;
+  background-color: white;
+}
+
+.selected {
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.color:hover {
+  transform: rotateZ(180deg);
+  display:inline-block;
+}
+
+#clear-board {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  margin-top: 50px;
+}
