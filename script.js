@@ -1,24 +1,47 @@
 //color[length] para alterar a cor nas paletas
 
 window.onload = function bemVindo() {
-    console.log("oi")
+    console.log("teste testando")
 }
 
-let palleteColorBasic = ['black', 'red', 'blue', 'green'];
 
+//Variaveis //
+
+let colorElements = document.querySelectorAll('.color');
+
+// Coloca as cores nas Divs //
+let palleteColorBasic = ['black', 'red', 'blue', 'green'];
 window.onload = function palleteColor(){
     for (let index = 0; index < palleteColorBasic.length; index += 1)
-        document.querySelectorAll('.color')[index].style.backgroundColor = palleteColorBasic[index];
+    colorElements[index].style.backgroundColor = palleteColorBasic[index];
 }
 
 
-let pixel = document.getElementsByClassName('pixel');
 
-pixel.addEventListener('click', changeColor) 
+// Seleciona cor na palette //
+function selecColorPallete(event) {
+    const elementTarget = event.target;
+    if (elementTarget.id !== 'color-palette') {
+      colorElements.forEach((element) => {
+        element.classList.remove('selected');
+        elementTarget.classList.add('selected');
+      });
+    }
+  }
 
 
-function changeColor() {
-    document.getElementsByClassName('pixel').style.backgroundColor = 'black'
+
+
+
+
+
+// let pixel = document.getElementsByClassName('pixel');
+
+// pixel.onclick = changeColor 
+
+
+// function changeColor() {
+//     document.getElementsByClassName('pixel').style.backgroundColor = 'black'
     
 // document.getElementsByTagName('td')
 

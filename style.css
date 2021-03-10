@@ -31,7 +31,7 @@ aside{
     background-color: white ;
 }
 
-#Quadro {
+#board {
     border: 3px solid darkgreen;
     box-sizing: border-box;
     padding: 50px;
@@ -40,9 +40,10 @@ aside{
     text-align: center;
 }
 
-table td {
-    border: 1px solid red;
+.pixel {
+    border: 1px solid black;
     box-sizing: border-box;
     width: 40px;
     height: 40px;
+    background-color: white;
 }
