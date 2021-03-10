@@ -1,0 +1,36 @@
+.color {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.color:nth-child( 1 ) {
+  background-color: black;
+}
+
+.color:nth-child( 2 ) {
+  background-color: yellow;
+}
+
+.color:nth-child( 3 ) {
+  background-color: green;
+}
+
+.color:nth-child( 4 ) {
+  background-color: blue;
+}
+
+#pixel-board {
+  width: 210px;
+  height: 210px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin-bottom: -4px;
+}
