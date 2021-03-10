@@ -371,7 +371,6 @@ describe('9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a c
 describe('10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
-    cy.get('.pixel').should('have.length', 25);
   });
 
   it('Verifica se existe um input com o id `board-size`', () => {
@@ -435,7 +434,6 @@ describe('10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.'
 describe('11 - Limite o tamanho mínimo e máximo do board.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
-    cy.get('.pixel').should('have.length', 25);
   });
 
   it('Verifica se a altura máxima do board é 50', () => {
@@ -460,7 +458,6 @@ describe('11 - Limite o tamanho mínimo e máximo do board.', () => {
 describe('12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.', () => {
   beforeEach(() => {
     cy.visit('./index.html');
-    cy.get('.pixel').should('have.length', 25);
   });
 
   it('Verifica se as cores geradas na paleta são diferentes a cada carregamento da página', () => {

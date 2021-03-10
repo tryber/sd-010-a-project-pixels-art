@@ -6,7 +6,6 @@
 aside{
     display: block;
     margin: 20px;
-
 }
 
 #title {
@@ -47,3 +46,19 @@ aside{
     height: 40px;
     background-color: white;
 }
+
+/* #initialColorBlack {
+    background-color:black;
+}
+
+#initialColorRed {
+    background-color:red;
+}
+
+#initialColorGreen {
+    background-color:green;
+}
+
+#initialColorBlue {
+    background-color:blue;
+} */

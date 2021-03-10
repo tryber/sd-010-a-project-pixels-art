@@ -4,59 +4,48 @@ window.onload = function bemVindo() {
     console.log("teste testando")
 
 }
-
-
-//Variaveis // pq Const? //
-
-let colorElements = document.querySelectorAll('.color');
-let board = document.getElementById('board');
+//lets //
 let palleteColorBasic = ['black', 'red', 'blue', 'green'];
-let colorSelected = document.querySelector('.selected').style.backgroundColor;
-
+let Palette = document.getElementById('color-palette');
+let Color = document.querySelectorAll('.color');
+let Board = document.getElementById('board');
 
 // Coloca as cores nas Divs //
 window.onload = function palleteColor(){
-    for (let index = 0; index < palleteColorBasic.length; index += 1)
-    colorElements[index].style.backgroundColor = palleteColorBasic[index];
+  for (let index = 0; index < palleteColorBasic.length; index += 1)
+  Color[index].style.backgroundColor = palleteColorBasic[index];
 }
 
-
-
 // Seleciona cor na palette //
-function selectColorPallete(event) {
-    let elementTarget = Event.target;
-    if (elementTarget.id !== 'color-palette') {
-      colorElements.forEach((element) => {
-        element.classList.remove('selected');
-        event.target.classList.add('selected');
-      });
-    }
+function setColor(event) {
+  const elementTarget = event.target;
+  if (elementTarget.id !== 'color-palette') {
+    Color.forEach((element) => {
+      element.classList.remove('selected');
+      elementTarget.classList.add('selected');
+    });
   }
+}
 
 // Salva cor //
-  function saveColorPalette() {
-    let colorSelected = document.querySelector('.selected').style.backgroundColor;
-    let color = window.getComputedStyle(colorSelected).getPropertyValue('background-color');
-    return color;
-  }
+function getColor() {
+  const elementSelected = document.querySelector('.selected');
+  const color = window.getComputedStyle(elementSelected).getPropertyValue('background-color');
+  return color;
+}
 
 // Pinta pixel //
-function paintPixels(event) {
-    const elementTarget = event.target;
-    if (elementTarget.id !== 'board') {
-      elementTarget.style.backgroundColor = selectColorPallete();
-    }
+function changePixels(event) {
+  const elementTarget = event.target;
+  if (elementTarget.id !== 'board') {
+    elementTarget.style.backgroundColor = getColor();
   }
+}
+
+// Clicks //
+Palette.addEventListener('click', setColor);
+Board.addEventListener('click', changePixels);
 
 
-console.log(colorElements)
 
-
-colorElements[0].addEventListener('click', selectColorPallete);
-colorElements[1].addEventListener('click', selectColorPallete);
-colorElements[2].addEventListener('click', selectColorPallete);
-colorElements[3].addEventListener('click', selectColorPallete);
-board.addEventListener('click', paintPixels);
-console.log(document.querySelector('.selected'))
-console.log(colorSelected)
 
