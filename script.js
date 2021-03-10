@@ -2,12 +2,14 @@
 
 window.onload = function bemVindo() {
     console.log("teste testando")
+
 }
 
 
 //Variaveis //
 
 let colorElements = document.querySelectorAll('.color');
+let board = document.getElementById('board');
 
 // Coloca as cores nas Divs //
 let palleteColorBasic = ['black', 'red', 'blue', 'green'];
@@ -29,7 +31,7 @@ function selecColorPallete(event) {
     }
   }
 
-
+console.log(board)
 
 
 
