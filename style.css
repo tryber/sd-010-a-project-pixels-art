@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  height: 100px;
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+
+#title {
+  font-size: 50px;
+  text-align: center;
+}
+
+#color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+#color-red {
+  background-color: red;
+}
+
+#color-green {
+  background-color: green;
+}
+
+#color-blue {
+  background-color: blue;
+}
+
+.color {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#pixel-board {
+  justify-content: center;
+  background-color: white ! important;
+}
+
+.line {
+  display: flex;
+}
+
+.pixel {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+#clear-board , #generate-board {
+  padding: 15px;
+  font-weight: 600;
+  background-color: blue;
+  border-radius: 20px;
+  border: 0;
+}
+
+#clear-board:hover {
+  background-color: rgba(255, 0, 0, 0.541);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.board-btn {
+  margin-left: 30px;
+}
+
+#board-size {
+  width: 200px;
+}

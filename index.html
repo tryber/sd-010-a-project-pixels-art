@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Paleta de Cores</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+
+  <section id="color-palette">
+    <div id="color-black" class="color selected"></div>
+    <div id="color-red" class="color"></div>
+    <div id="color-green" class="color"></div>
+    <div id="color-blue" class="color"></div>
+  </section>
+
+  <div class="buttons">
+    <div class="clear-btn">
+      <button id="clear-board">Limpar</button>
+    </div>
+    <div class="board-btn">
+      <input type="number" min="1" placeholder="Tamanho do quadro de pixels" id="board-size">
+      <button id="generate-board">VQV</button>
+    </div>
+  </div>
+
+  <div id="container">
+    <section id="pixel-board">
+      <div class="line">
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+      </div>
+      <div class="line">
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+      </div>
+      <div class="line">
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+      </div>
+      <div class="line">
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+      </div>
+      <div class="line">
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+        <div class="pixel"></div>
+      </div>
+    </section>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
