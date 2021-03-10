@@ -11,6 +11,8 @@ window.onload = function bemVindo() {
 let colorElements = document.querySelectorAll('.color');
 let board = document.getElementById('board');
 let palleteColorBasic = ['black', 'red', 'blue', 'green'];
+let colorSelected = document.querySelector('.selected').style.backgroundColor;
+
 
 // Coloca as cores nas Divs //
 window.onload = function palleteColor(){
@@ -33,7 +35,7 @@ function selectColorPallete(event) {
 
 // Salva cor //
   function saveColorPalette() {
-    let colorSelected = document.querySelector('.selected');
+    let colorSelected = document.querySelector('.selected').style.backgroundColor;
     let color = window.getComputedStyle(colorSelected).getPropertyValue('background-color');
     return color;
   }
@@ -55,5 +57,6 @@ colorElements[1].addEventListener('click', selectColorPallete);
 colorElements[2].addEventListener('click', selectColorPallete);
 colorElements[3].addEventListener('click', selectColorPallete);
 board.addEventListener('click', paintPixels);
-
+console.log(document.querySelector('.selected'))
+console.log(colorSelected)
 
