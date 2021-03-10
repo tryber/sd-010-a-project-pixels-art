@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet" type="text/css"/>
+  <title>Mallmann02 Pixels Art Project</title>
+</head>
+<body>
+    <h1 id="title">Paleta de Cores</h1>
+
+    <main>
+      <div id="color-palette">
+        <container class="color selected"></container>
+        <container class="color"></container>
+        <container class="color"></container>
+        <container class="color"></container>
+      </div>
+
+      <div id="board-tools">
+        <input 
+          id="board-size" 
+          type="number" 
+          min="1"
+          max="50" 
+          maxlength="2"
+        >
+        <button id="generate-board">VQV</button> |
+        <button id="clear-board" type="button">Limpar</button>
+      </div>
+
+      <div id="pixel-board">
+
+      </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
