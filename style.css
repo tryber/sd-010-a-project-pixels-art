@@ -1,0 +1,28 @@
+#color-palette {
+  margin-top: 90px;
+}
+
+th {
+  border: 1px solid black;
+  width: 60px;
+  height: 45px;
+  cursor: pointer;
+}
+
+#pixel-board {
+  margin-top: 45px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+td {
+  background-color: white;
+  border: 1px solid;
+  width: 41px;
+  height: 41px;
+  cursor: pointer;
+}
+
+#clear-board {
+  margin-top: 15px;
+}
