@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paleta de Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1 id="title">Paleta de Cores</h1>
+</header>
+<main>
+    <section>
+        <div class="color-active-box">
+            <p>Cor Selecionada</p>
+            <div id="color-active"></div>
+        </div>
+        <div id="color-palette">
+            <div class="color selected"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <div class="properties">
+            <div>
+                <input id="board-size" class="input-text" type="number" min="1" aria-label="Tamanho do board" required>
+                <button id="generate-board" class="btn btn-primary" type="button">VQV</button>
+            </div>
+            <button id="clear-board" class="btn btn-outline" type="button">Limpar</button>
+        </div>
+        <div id="pixel-board">
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+            <div class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
