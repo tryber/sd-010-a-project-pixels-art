@@ -1,0 +1,20 @@
+.color {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+#pixel-board {
+    display: block;
+    padding-top: 20px;
+}
+
+.pixel {
+    background-color: white;
+    margin-top: -4px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
