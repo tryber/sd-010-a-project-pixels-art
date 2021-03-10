@@ -1,0 +1,60 @@
+#title {
+  text-align: center;
+}
+
+#color-palette {
+  display: flex;
+  padding-left: 330px;
+}
+
+#color-list {
+  display: flex;
+}
+
+.color-list-name {
+  margin-left: 100px;
+  text-align: center;
+}
+
+.color {
+  border: 1px solid;
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+}
+
+/*cores adicionadas diretamente no html para rodar o código para pintar os pixels 
+/*#color1 {
+  background-color: black;
+}
+
+#color2 {
+  background-color: chartreuse;
+}
+
+#color3 {
+  background-color: crimson;
+}
+
+#color4 {
+  background-color: darkcyan;
+}*/
+
+#pixel-board {
+  display: table;
+  padding-top: 50px;
+  padding-left: 330px;
+}
+
+.pixel {
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid;
+}
+
+button {
+  margin-left: 400px;
+  margin-top: 30px;
+}
