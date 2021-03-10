@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+#color-palette {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 210px;
+  margin: 10px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.user-input {
+  display: inline-block;
+}
+
+.user-input #board-size {
+  width: 45px;
+}
+
+#clear-board {
+  width: 210px;
+  margin: 10px;
+}
+
+.color#black {
+  background-color: black;
+}
+
+.color#green {
+  background-color: green;
+}
+
+.color#blue {
+  background-color: blue;
+}
+
+.color#red {
+  background-color: red;
+}
+
+.pixel-row {
+  height: 42px;
+}
