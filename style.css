@@ -1,0 +1,127 @@
+td {
+  cursor: crosshair;
+  transition-duration: 0.5s;
+}
+
+td:hover {
+  transform: scale(1.05, 1.05);
+}
+
+body {
+  background-color: rgb(242, 241, 209);
+}
+
+#content {
+  background-color: rgb(170, 227, 167);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 10%;
+  box-shadow: 4px 4px rgb(134, 182, 201);
+}
+
+#title {
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(242, 241, 209);
+  text-shadow: 2px 2px rgb(134, 182, 201);
+  text-align: center;
+  text-decoration: underline overline double;
+  font-size: 50px;
+  width: fit-content;
+  padding: 0 5px;
+}
+
+#board {
+  width: fit-content;
+  background-color: rgb(242, 241, 209);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 10%;
+}
+
+/* Color palette */
+#color-palette {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.color {
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+}
+
+.selected {
+  border: 1px solid black;
+  border-radius: 30%;
+}
+
+/* Pixel board */
+#pixel-board {
+  border-collapse: collapse;
+}
+
+.pixel {
+  height: 41px;
+  width: 41px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#table-color {
+  padding: 0 5px 5px;
+}
+
+/* Buttons and inputs */
+#buttons {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+button {
+  font-size: 16px;
+  background-color: rgb(0, 185, 71);
+  color: white;
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 1px solid rgb(0, 185, 71);
+  transition-duration: 0.5s;
+  box-shadow: 0 4px #999;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(0, 124, 48);
+  border: 1px solid rgb(0, 185, 71);
+}
+
+button:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+#board-size {
+  width: 40px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Esconder as setas do input
+Retirado de: https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp
+Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

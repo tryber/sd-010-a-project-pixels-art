@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixels Art</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id='content'>
+    <header>
+      <h1 id='title'>Paleta de Cores</h1>
+    </header>
+    <section id = 'board'>
+      <table id = 'color-palette'></table>
+      <section id='buttons'>
+        <button id='clear-board' onclick=clearBoard()>Limpar</button>
+        <input id = 'board-size' type = 'number' min = '1' placeholder = '5-50'>
+        <button id='generate-board' onclick=makeBoard() value='VQV'>VQV</button>
+      </section>
+      <div id = 'table-color'>
+        <table id = 'pixel-board'></table>
+      </div>
+    </section>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
