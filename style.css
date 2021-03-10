@@ -1,0 +1,45 @@
+#black {
+  background-color: black;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#limegreen {
+  background-color: limegreen;
+}
+
+.color {
+  border: 1px black solid;
+}
+
+#color-palette div {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+.pixel {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px black solid;
+}
+
+table {
+  border-spacing: 0;
+}
+
+#clear-board {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
