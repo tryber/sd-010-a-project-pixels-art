@@ -1,0 +1,15 @@
+.color {
+  border: solid black 1px;
+  height: 25px;
+  width: 25px;
+}
+
+.pixel {
+  border: solid black 1px;
+  height: 41px;
+  width: 41px;
+}
+
+#pixel-board {
+  border-collapse: collapse;
+}

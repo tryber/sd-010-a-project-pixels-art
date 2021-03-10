@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pixels Art - William Willers</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+  <section>
+    <table id="color-palette">
+      <tr>
+        <td class="color"></td>
+        <td class="color"></td>
+        <td class="color"></td>
+        <td class="color"></td>
+      </tr>
+    </table>
+    <button id="clear-board" onclick="clearPixelBoard()">Limpar</button>
+    <input type="number" id="board-size" name="board-size" min="1" max="50" pattern="^[0-9]" step="1">
+    <button id="generate-board" onclick="generateCustomPixelFrame()">VQV</button>
+    <table id="pixel-board">
+
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
