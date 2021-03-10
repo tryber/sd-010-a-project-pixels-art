@@ -21,6 +21,7 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "eslint-config-trybe-fundamentals": "1.1.0"
+    "eslint-config-trybe-fundamentals": "1.1.0",
+    "lint": "^0.7.0"
   }
 }

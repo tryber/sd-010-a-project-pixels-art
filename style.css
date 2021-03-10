@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#conteudo {
+  width: 210px;
+  margin: 0 auto;
+}
+
+#title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#pixel-board {
+  display: table;
+  border: 1px solid black;
+  width: 210px;
+  height: 210px;
+}
+
+.line-pixel {
+  display: table-row;
+}
+
+.pixel {
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#clear-board {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
