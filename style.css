@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(182, 178, 178);
+}
+
+#title {
+  color: black;
+}
+
+#color-palette {
+  background-color: whitesmoke;
+  position: absolute;
+  border-style: groove;
+  width: 400px;
+  height: 80px;
+}
+
+.color {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  height: 78px;
+  width: 95px;
+}
+
+#black {
+  background-color: black;
+  position: absolute;
+  left: 0.5%;
+}
+
+#green {
+  background-color: green;
+  position: absolute;
+  left: 25.5%;
+  z-index: 2;
+}
+
+#blue {
+  background-color: blue;
+  position: absolute;
+  right: 25.5%;
+  z-index: 2;
+}
+
+#purple {
+  background-color: purple;
+  position: absolute;
+  right: 0.5%;
+}
+
+/* obrigado ao joão por me atentar a dica do display
+para alinhar as celulas */
+
+#pixel-board {
+  display: table;
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  top: 40%;
+  left: 7.5%;
+}
+
+.pixel-line {
+  display: table-row;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  display: table-cell;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: white;
+}
+
+#clear-board {
+  position: absolute;
+  top: 27%;
+  left: 7%;
+  background-color: white;
+  border: groove;
+  border-width: 2px;
+  border-color: black;
+}
