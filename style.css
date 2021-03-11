@@ -1,0 +1,39 @@
+.color:nth-child( 1 ) {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.color:nth-child( 2 ) {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.color:nth-child( 3 ) {
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.color:nth-child( 4 ) {
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
