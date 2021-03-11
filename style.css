@@ -1,0 +1,24 @@
+.color{
+    border: solid;
+    border-width: 1px;
+    width: 40px;
+    height: 40px;
+    display: table-cell;
+    
+
+}
+#color-palette{
+    display: table;
+}
+#pixel-board{
+    display: table;
+}
+.pixel{
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    display:table-cell;
+}
