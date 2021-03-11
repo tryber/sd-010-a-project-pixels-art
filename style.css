@@ -1,0 +1,25 @@
+#color-palette {
+	display: table;
+	padding: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.color {
+  border: solid black 1px;
+  display: table-cell;
+  width: 30px;
+  padding: 40px;
+}
+
+.squares {
+	display: flex;
+}
+
+.pixel {
+	width: 40px;
+	height: 40px;
+	padding: 30px;
+	background-color: white;
+	border: solid black 1px;
+}
