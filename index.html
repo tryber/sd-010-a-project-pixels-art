@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Paleta de cores</title>
+</head>
+
+<body>
+    <header id='header-title'>
+        <h1 id='title'>Paleta de Cores</h1>
+    </header>
+
+    <section id='section-palette'>
+        <div id='color-palette'>
+            <div id='color-1' class="color selected"></div>
+            <div id='color-2' class="color"></div>
+            <div id='color-3' class="color"></div>
+            <div id='color-4' class="color"></div>
+        </div>
+    </section>
+
+    <section id='section-board-changes'>
+        <input type="number" name="board-size" id="board-size" min="1" max="100">
+        <button id="generate-board" class="btn">VQV</button>
+    </section>
+
+    <section id='section-btn-clear'>
+        <button id="clear-board" class="btn">Limpar</button>
+    </section>
+
+    <section id='pixel-board'>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
