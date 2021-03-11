@@ -1,0 +1,66 @@
+.color {
+display: inline-block;   
+border: solid 1px black;
+width: 50px;
+height: 50px;
+}
+
+#palette-black {
+background-color: black;
+}
+
+#palette-green{
+background-color: green;
+}
+
+#palette-yellow{
+background-color: yellow;
+}
+
+#palette-blue{
+background-color: blue;
+}
+
+#pixel-board {
+width: 260px;
+}
+
+.pixel {
+background-color: white;
+display: inline-block;
+border: solid 1px black;
+width: 40px;
+height: 40px;
+}
+.selected {
+
+}
+
+.pixel-black {
+  background-color: black;    
+}
+
+.pixel-green {
+  background-color: green;    
+}
+
+.pixel-yellow {
+  background-color: yellow;
+}
+
+.pixel-blue {
+  background-color: blue;  
+}
+
+#clear-board {
+  border-radius: 6px;
+  border-style: none;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  margin-left: 80px;
+}
+
+#pixel-board {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
