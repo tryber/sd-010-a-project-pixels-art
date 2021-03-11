@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pixel Art</title>
+  
+</head>
+<body>
+  <h1 id="title">Paleta de Cores</h1>
+  <section id="color-palette"></section>
+
+  <label for="board-size">Escolha um número entre 5 e 50 para montar a tabela</label>
+  <input type="number" min='1' id="board-size"><!-- min="5" max="50" value="5"-->
+  <button type="submit" id='generate-board'>VQV</button>
+
+  <button id="clear-board">Limpar</button>
+
+  <table id="pixel-board"></table>
+
+  <script src="script.js"></script>
+</body>
+</html>

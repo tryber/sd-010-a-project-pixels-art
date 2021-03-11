@@ -1,0 +1,23 @@
+#color-palette {
+  height: 50px;
+  display: flex;
+}
+
+#clear-board {
+  display: block;
+  margin: 1% 0;
+}
+
+.color {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  margin-right: 0.5%;
+}
+
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
