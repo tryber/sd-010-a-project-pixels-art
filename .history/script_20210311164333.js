@@ -1,0 +1,1 @@
+let cor = document.getElementsByClassName('color');let cor = document.getElementsByClassName('color');

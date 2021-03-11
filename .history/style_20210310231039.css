@@ -1,0 +1,21 @@
+#color-palette {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-green {
+  background-color: green;
+}

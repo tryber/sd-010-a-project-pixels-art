@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#color-palette {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-green {
+  background-color: green;
+}

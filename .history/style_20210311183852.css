@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  margin-left: 30px;
+}
+
+#color-palette {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.backBlack {
+  background-color: black;
+}
+
+.ed {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+
+table, th, td {
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+
