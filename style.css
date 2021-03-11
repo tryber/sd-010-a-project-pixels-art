@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.color {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#color-palette .color {
+  height: 50px;
+  width: 50px;
+}
+
+.pixel {
+  display: inline-block;
+  box-sizing: content-box;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.selected {
+  border-radius: 15px;
+}
+
+#board-size {
+  width: 120px;
+}
+
+#board-size:invalid {
+  border: 1px solid red;
+}
+
+#board-size:valid {
+  border: 1px solid green;
+}
