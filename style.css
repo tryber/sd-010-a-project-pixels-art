@@ -1,0 +1,30 @@
+#color-palette {
+    height: 60px;
+    width: 300px;
+    list-style: none;
+    }
+.color {
+    border: 1px solid black;
+    display: inline-block; 
+    height: 25px;
+    width: 50px;   
+}
+#pixel-board {
+    min-height: 225px;
+    width: 210px;
+    border: 1px solid black;
+    }
+
+    /* parte do codigo aqui foi referenciado por
+     http://bluegalaxy.info/codewalk/2018/03/01/html-css-create-square-grid-using-css-grid/ */
+
+.pixel {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    
+}
