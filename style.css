@@ -1,0 +1,14 @@
+.boxes {
+  height: 40px;
+  width: 40px;
+  border: black solid 1px;
+  display: inline-block;
+}
+
+.pixels-board {
+  margin-top: 30px;
+}
+
+.pixel {
+  background-color: white;
+}
