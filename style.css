@@ -1,0 +1,20 @@
+.color {
+  border: solid black 1px;
+  width: 48px;
+  height: 48px;
+}
+
+#pixel-board {
+  border-collapse: collapse;
+}
+
+.pixel {
+  border: 1px solid black;
+  background: white;
+  width: 41px;
+  height: 41px;
+}
+
+#clear-board {
+  margin: 10px;
+}
