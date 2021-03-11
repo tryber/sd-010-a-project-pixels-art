@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link href='style.css' type='text/css' rel='stylesheet' />
+    <title>Paleta de Cores</title>
+</head>
+<body>
+    <header>
+        <h1 id='title'> Paleta de Cores </h1>
+    </header>
+    
+    <section id='color-palette'>
+        <div class='color selected' id='blackColor' style="background-color: black;"></div>
+        <div class='separate'></div>
+        <div class='color' id='yellowColor' style="background-color: yellow;"></div>
+        <div class='separate'></div>
+        <div class='color' id='greenColor' style="background-color: green;"></div>
+        <div class='separate'></div>
+        <div class='color' id='blueColor' style="background-color: blue;"></div>
+    </section>
+    <div>
+        <button id='clear-board' type='button'> Limpar </button>
+    </div>
+    <form>
+        <label>Informe o número de quadrados por linha</label>
+        <input type='text' id="board-size">
+        <button id='generate-board' type='button'>VQV</button>
+    </form>
+    <section id='pixel-board'>
+    </section>
+    <script src='script.js'></script>
+</body>
+</html>
