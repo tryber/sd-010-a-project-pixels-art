@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-size: 0.8vw;
+}
+
+/* --------------- header -------------- */
+#title {
+    font-family: Cinzel, serif;
+    text-align: center;
+    font-size: 2vw;
+}
+
+/* -------------- main ----------------- */
+main {
+    display: block;
+}
+
+#color-palette {
+    display: inline-block;
+    text-align: center;
+    margin-left: 32vw;
+}
+
+.color {
+    display: inline-block;
+    width: 08vw;
+    height: 08vw;
+    font-family: Cinzel Decorative, cursive;
+    border: solid 1px black;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.tiffany-blue {
+    background-color: #a0e7e5;
+}
+
+.mint {
+    background-color: #b4f8c8;
+}
+
+.yellow {
+    background-color: #fbe7c6;
+}
+
+#pixel-board {
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    margin-left: 40vw;
+    margin-top: 5vh;
+}
+
+.pixel {
+    box-sizing: content-box;
+    display: inline-block;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+}
+
+#button-container {
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 2vw;
+}
+
+#clear-board {
+    width: 6vw;
+    height: 3vh;
+}
+
+/* ------------------- footer ------------ */
