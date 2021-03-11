@@ -1,0 +1,18 @@
+.color {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 30px;
+  margin-left: 10px;
+}
+
+.pixel {
+  background-color: white;
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+#clear-board {
+  margin: 20px 30px;
+}
