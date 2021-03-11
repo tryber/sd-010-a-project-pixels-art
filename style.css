@@ -1,0 +1,22 @@
+.color {
+  border: solid black;
+  border-width: 1px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: solid black;
+  border-width: 1px;
+  float: left;
+  background-color: white;
+}
+
+.container_items {
+  margin: 5px;
+}
+
