@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Pixels Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <h1 id="title" class="header__title">"Paleta de Cores"</h1>
+  </header>
+
+  <table id="color-palette">
+    <tr>
+      <td class="color color-black selected"></td>
+      <td class="color color-red colorRandon"></td>
+      <td class="color color-blue colorRandon"></td>
+      <td class="color color-green colorRandon"></td>
+    </tr>
+  </table>
+  
+  <div class="config">
+    <button id="clear-board" class="config__clear btn">Limpar</button>
+    <div class="container-generate">
+      <input type="number" id="board-size" min="1" max="50" class="input">
+      <button id="generate-board" class="config__generate btn">VQV</button>
+    </div>
+  </div>
+  
+  <table id="pixel-board">
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
