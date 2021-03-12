@@ -1,0 +1,29 @@
+h1 {
+    background-color: brown;
+}
+.color {
+    border: solid 1px black;
+}
+
+.pintar {
+    border: solid 1px black;
+    width:40px;
+    height:40px;
+}
+
+.pixel {
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+  }
+
+  .cool {
+    border: solid 1px black;
+    cursor: pointer;
+  }
+  #color-palette {
+    height: 50px;
+    width: 180px;
+  }
