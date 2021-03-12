@@ -1,0 +1,30 @@
+* {
+  text-align: center;
+}
+
+.color {
+  height: 100px;
+  width: 100px;
+}
+
+.pixel , .color {
+  display: inline-block;
+  border: 1px black solid;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px black solid;
+  height: 40px;
+  width: 40px;
+}
+
+.lines {
+  line-height: 0px; }
+
+button , .color {
+  margin: 0 0 30px;
+}
+
+form {
+  display: inline; }
