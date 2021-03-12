@@ -1,0 +1,17 @@
+#color-palette {
+  max-width: 250px;
+}
+
+.pixel {
+  background-color: 'white';
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+}
