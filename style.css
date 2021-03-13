@@ -1,0 +1,38 @@
+#title {
+  text-align: center;
+}
+
+#black {
+  background-color: black;
+}
+
+.color {
+  border: solid black 1px;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+#color-palette {
+  text-align: center;
+}
+
+#pixel-board {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#clear-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#clear-board {
+  background-color: white;
+}
+
+#setBoard {
+  margin-top: 10px;
+  text-align: center;
+}
