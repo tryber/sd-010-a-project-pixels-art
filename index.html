@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixels Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">Paleta de Cores</h1>
+  <table id="color-palette">
+    <tr>
+      <th class="color selected" id="black"> </th>
+      <th class="color random"></th>
+      <th class="color random"></th>
+      <th class="color random"></th>
+    </tr>
+  </table>
+  <button></button>
+  <!--https://stackoverflow.com/questions/19233415/how-to-make-type-number-to-positive-numbers-only/19233458#:~:text=You%20can%20force%20the%20input,onkeypress%20within%20the%20input%20tag.&text=Here%2C%20event.,scrolling%20within%20the%20input%20bar.
+  para aceitar apenas numeros positivos -->
+  <input type="number" min='1' onkeypress="return event.charCode >= 48" id="board-size">
+  <button id="generate-board"></button>
+  <table id="pixel-board">
+
+
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>
