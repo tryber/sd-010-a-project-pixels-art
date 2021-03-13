@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@700&display=swap" rel="stylesheet">
+
+  <title>Paleta de Cores</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+
+    <ul id="color-palette"></ul>
+    <div class="buttons-container">
+      <button id="change-colors" class="button">Trocar cores</button>
+      <button id="change-selected-color" class="button">Mudar cor</button>
+      <input type="text" id="color-input" placeholder="#000000">
+    </div>
+
+
+    <div class="buttons-container">
+      <button id="clear-board" class="button">Limpar</button>
+      <form action="" id="board-form">
+        <input type="number" id="board-size" min="1" placeholder="Size">
+        <button id="generate-board" class="button">VQV</button>
+      </form>
+    </div>
+
+    <div id="pixel-board"></div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
