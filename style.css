@@ -1,0 +1,43 @@
+#color-palette {
+  border-spacing: 0.6rem;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+}
+
+#color-black {
+  background-color: black;
+}
+
+#color-red {
+  background-color: red;
+}
+
+#color-pink {
+  background-color: pink;
+}
+
+#color-orange {
+  background-color: orange;
+}
+
+#pixel-board {
+  border-collapse: collapse;
+  margin-left: 20px;
+}
+
+.pixel {
+  display: table-cell;
+  box-sizing: border-box;
+  border: solid 1px black;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+button {
+  margin: 10px;
+}
