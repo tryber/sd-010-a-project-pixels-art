@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: rgba(190, 218, 211, 1);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1366px;
+  text-align: center;
+}
+
+#title {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+#color-palette .color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin-top: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+#color-palette .color:hover {
+  height: 60px;
+  width: 60px;
+}
+
+#color-palette div:nth-of-type( 1 ) {
+  background-color: black;
+}
+
+#color-palette div:nth-of-type( 2 ) {
+  background-color: red;
+}
+
+#color-palette div:nth-of-type( 3 ) {
+  background-color: blue;
+}
+
+#color-palette div:nth-of-type( 4 ) {
+  background-color: green;
+}
+
+#clear-board {
+  margin-top: 70px;
+
+}
+
+#pixel-board {
+  margin-top: 70px;
+  padding: 0;
+}
+
+.pixel:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-style {
+  padding: 8px;
+  margin-bottom: 40px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(93, 163, 146, 1);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#board-size {
+  width: 200px;
+  height: 36px;
+}
+
+.hover {
+  width: 50px;
+  height: 50px;
+}
+
+.all-colors {
+  background-color: lightgray;
+  width: 300px;
+  margin: 30px auto 0;
+  border-radius: 50px;
+}
