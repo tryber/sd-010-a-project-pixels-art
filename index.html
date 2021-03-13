@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project | Pixels Art</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+
+    <main>
+      <section id="color-palette">
+        <div class="color black selected"></div>
+        <div class="color purple"></div>
+        <div class="color lightgreen"></div>
+        <div class="color pink"></div>
+      </section>
+
+      <section>
+        <button id="clear-board" type="button">Limpar</button>
+        <form>
+          <input id="board-size" type="number" min="1" />
+          <button id="generate-board" type="button" value="submit">VQV</button>
+        </form>
+        <div id="pixel-board">
+          <div class="tr">
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+          </div>
+          <div class="tr">
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+          </div>
+          <div class="tr">
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+          </div>
+          <div class="tr">
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+          </div>
+          <div class="tr">
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

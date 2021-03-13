@@ -1,0 +1,46 @@
+.color {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.black {
+  background-color: black;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.pink {
+  background-color: pink;
+}
+
+form {
+  display: inline-block;
+}
+
+.white {
+  background-color: white;
+}
+
+#pixel-board {
+  display: table;
+}
+
+.tr {
+  display: table-row;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: table-cell;
+  box-sizing: border-box;
+}
