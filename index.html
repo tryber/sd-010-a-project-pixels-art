@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte com Pixels</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Desenvolvi um cabeçalho similar ao que fiz durante o projeto do Bloco 3.5 -->
+    <header>
+        <h1 class="display-inline" id="title">Paleta de Cores</h1>
+        <h1 class="display-inline" id="desenvolvedor">Desenvolvido por: Carlos Sá | Turma 10 - A</h1>
+        <a class="display-inline" id="logo-trybe" href="http://www.betrybe.com" target="_blank">
+            <img class="display-inline" id="logo-trybe" alt="Logo da Tribe" src="https://uploads-ssl.webflow.com/5fba98ad987231cf0efa3d58/5fba9c9a93a2e77624258d49_Logo.svg">
+        </a>
+    </header>
+    <!-- Minha paleta de cores. Utilizei o site https://www.schemecolor.com -->
+    <div class="display-inline" id="color-palette">
+        <div onclick="selecionaPreto();" title="Preto" class="display-inline color selected espacoEntreCores" id="cor-preto"></div>
+        <div onclick="selecionaLaranja();" title="Laranja" class="display-inline color" id="cor-laranja"></div>
+        <div onclick="selecionaAzul();" title="Azul" class="display-inline color espacoEntreCores" id="cor-azul"></div>
+        <div onclick="selecionaMarrom();" title="Marrom" class="display-inline color" id="cor-marrom"></div>
+    </div>
+    <br><br>
+    <!-- Botão Limpa Tudo, exceto o nome sujo -->
+    <button onclick="apagarTudo();" title="Limpar o Quadro de Pixels" id="clear-board">Limpar</button>
+
+    <!-- Quadro de Pixels -->
+    <div id="pixel-board">
+        <div id="agrupa-divs">
+            <!-- Linha 1 do Quadro de Pixels -->
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-01"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-02"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-03"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-04"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-05"></div>
+            <br>
+            <!-- Linha 2 do Quadro de Pixels -->
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-06"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-07"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-08"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-09"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-10"></div>
+            <br>
+            <!-- Linha 3 do Quadro de Pixels -->
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-11"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-12"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-13"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-14"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-15"></div>
+            <br>
+            <!-- Linha 4 do Quadro de Pixels -->
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-16"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-17"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-18"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-19"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-20"></div>
+            <br>
+            <!-- Linha 5 do Quadro de Pixels -->
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-21"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-22"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-23"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-24"></div>
+            <div onclick="pintarPixel(this.id);" class="display-inline pixel" id="pixel-25"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
