@@ -1,0 +1,52 @@
+h1 {
+  margin-top: 10px;
+  justify-content: center;
+  font-size: 35px;
+}
+
+h2 {
+  margin-left: 29px;
+}
+
+#color-palette {
+  display: table;
+  border-spacing: 1px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.row {
+  display: table-row;
+}
+
+.color {
+  border: 1px solid black;
+  display: table-cell;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+#pixel-board {
+  display: table;
+  border-spacing: 1px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.pixel {
+  border: 1px solid black;
+  display: table-cell;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+button {
+  background-color: #870000;
+  font-weight: 400;
+  box-shadow: 10px 5px 5px gray;
+  color: white;
+  margin-left: 55px;
+  margin-top: 5px;
+}
