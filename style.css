@@ -1,0 +1,25 @@
+#black {
+  background-color: black;
+}
+#yellow {
+  background-color: yellow;
+}
+#blue {
+  background-color: blue;
+}
+#red {
+  background-color: red;
+}
+.color {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+.pixel {
+  border: 1px solid black;
+  width: 40px; 
+  height: 40px;
+  background-color: white;
+  box-sizing: border-box;
+  
+}
