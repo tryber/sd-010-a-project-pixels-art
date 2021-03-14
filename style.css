@@ -1,0 +1,20 @@
+.color{
+  border: solid black 1px;  
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+
+}
+#pixel-board{
+    display: table; 
+}
+.tr{
+    display: table-row; 
+}
+.pixel{
+    display: table-cell;
+    border: solid black 1px; 
+    width: 40px;
+    height: 40px;  
+    background-color: white;
+}
