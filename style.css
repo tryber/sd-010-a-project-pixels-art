@@ -1,0 +1,34 @@
+#color-palette {
+  display: table;
+  height: 100px;
+  border-spacing: 5px;
+  padding: 10px;
+}
+
+#color-palette section {
+  display: table-row;
+}
+
+#color-palette .color {
+  display: table-cell;
+  border: 1px solid black;
+  width: 100px;
+}
+
+#pixel-board {
+  border-collapse: collapse;
+}
+
+.pixel {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  padding: 1px;
+  box-sizing: content-box;
+  background-color: white;
+}
+
+#clear-board {
+  padding: 5px;
+  margin: 10px;
+}
