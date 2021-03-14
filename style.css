@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#title {
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(57, 111, 80);
+  border-bottom: 10px solid rgb(105, 195, 141);
+}
+
+h1 {
+  padding: 20px 0;
+}
+
+table {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: small;
+}
+
+.color {
+  border: black solid 1px;
+  width: 60px;
+  height: 60px;
+}
+
+#pixel-board {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.pixel {
+  background-color: white;
+  width: 41px;
+  height: 41px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: smaller;
+  text-align: center;
+}
+
+button {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
