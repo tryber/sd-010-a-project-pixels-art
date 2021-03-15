@@ -1,0 +1,55 @@
+/* Esta página pode ser vista na url https://rogerio-lambert.github.io/javaScript-DOM/pixel-art/pixel-art.html */
+
+.color {
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: solid black 1px;
+  margin: 0;
+}
+
+tr {
+  margin: 0;
+  border: black 1px solid;
+
+}
+
+#pixel-board {
+  border: solid black 1px;
+  margin: 30px;
+}
+
+#board-size {
+  max-width: 50px;
+}
+
+#title-change-size {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+body {
+  background-color: white;
+}
+
+#color0 {
+  background-color: black;
+}
+
+#color1 {
+  background-color: maroon;
+}
+
+#color2 {
+  background-color: red;
+}
+
+#color3 {
+  background-color: rgb(153, 153, 102);
+}

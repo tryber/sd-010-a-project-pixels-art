@@ -1,0 +1,71 @@
+<!-- Esta página pode ser vista na url https://rogerio-lambert.github.io/javaScript-DOM/pixel-art/pixel-art.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelArt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main id="content">        
+        <h1 id="title">Paleta de Cores</h1>
+        <table>
+            <tr id="color-palette">
+                <th class="color selected" id="color0"></th>
+                <th class="color" id="color1"></th>
+                <th class="color" id="color2"></th>
+                <th class="color" id="color3"></th>
+            </tr>            
+        </table>
+        <p id="title-change-size">Digite o tamanho da malha de pixels:  </p>
+        <input type="number" placeholder="5 a 50" id="board-size" max="50" min="1">
+        <button id="generate-board">VQV</button>
+        <br>
+        <button id="clear-board">Limpar desenho</button>
+        <table id="pixel-board">
+            <tr>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+            </tr>
+            <tr>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+            </tr>
+            <tr>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+            </tr>
+            <tr>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+            </tr>
+            <tr>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+                <td class="pixel"></td>
+            </tr>
+        </table>
+    <script src="script.js"></script>
+    </main>
+    <footer></footer>    
+</body>
+</html>
