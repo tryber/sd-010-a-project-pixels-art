@@ -1,0 +1,63 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	align-content: center;
+}
+
+#header {
+  display:flex;
+	justify-content: center;
+  margin-left: 10px;
+}
+
+#title {
+  text-align:center;  
+}
+
+#color-palette {
+  display:flex;
+}
+
+.color {
+  width:40px;
+  height:40px;
+  border:1px solid;
+  border-color:black;
+  margin: 10px;
+}
+
+#black {
+  background-color:black;
+}
+
+#red {
+  background-color:red;
+}
+
+#blue {
+  background-color:blue;
+}
+
+#green {
+  background-color:green;
+}
+
+.tabela {
+	margin-left: 8px;
+}
+
+.pixel {
+	box-sizing: content-box;
+  background-color:white;
+  height:40px;
+  width:40px; 
+  border:solid 1px;
+}
+
+.flex-center {
+	display:flex;
+	justify-content: center;
+}
