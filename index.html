@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixels Art</title>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+  <header>
+    <h1 id='title'>Paleta de Cores</h1>
+  </header>
+
+  <article>
+    <section>
+      <ul id='color-palette'>
+        <li class='color'></li>
+        <li class='color'></li>
+        <li class='color'></li>
+        <li class='color'></li>
+      </ul>
+    </section>
+    <br>
+    <section id='section'>
+      <form>
+        <label for='board-size'>Para alterar o tamanho do quadro, digite entre 5 a 50:</label>
+        <input id='board-size' type='number' min='1' max='50'>
+      </form>
+      <button id='generate-board'>#VQV</button>
+      <br>
+      <button id='clear-board'>Limpar Quadro</button>
+    </section>
+    <br>
+    <section>
+      <table id='pixel-board'>
+        <tbody>
+          <tr>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+          </tr>
+          <tr>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+          </tr>
+          <tr>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+          </tr>
+          <tr>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+          </tr>
+          <tr>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+            <td class='pixel'></td>
+          </tr>
+        </tbody>
+      </table> 
+    </section>
+  </article> 
+  <footer>
+    <p>Página desenvolvida por <a href='https://github.com/diogomarin' target="_blank">Diogo Marin</a> em Março de 2021.</p>
+  </footer>
+
+  <script src='script.js'></script>
+</body>
+</html>
