@@ -1,0 +1,54 @@
+#title {
+  background-color: cadetblue;
+  width: 100%;
+}
+
+#color-palette {
+  text-align: center;
+  margin: 10px;
+}
+
+.color {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 80px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+#pixel-board {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.pixel {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  margin-left: 5px;
+}
+
+.selected {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 80px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+#pixel-board section {
+  margin: 10px;
+}
+
+#clear-board {
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
