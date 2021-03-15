@@ -1,0 +1,36 @@
+#color-palette {
+  display: inline-block;
+
+}
+
+.color {
+  padding: 22px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.pixel {
+  display: inline-block;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  margin-bottom: -5px;
+  background-color: rgb(255, 255, 255);
+}
+
+#pixel-board {
+  margin: 0%;
+}
+
+#clear-board {
+  padding-left: 75px;
+  padding-right: 77px;
+}
+
+#title {
+  text-align: center;
+}
+
+#align {
+  text-align: center;
+}
