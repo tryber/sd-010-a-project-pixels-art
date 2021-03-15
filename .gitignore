@@ -1,3 +1,20 @@
 # VSCode repo settings
 .vscode
 node_modules
+cypress/screenshots/project.spec.js/2 - Adicione à página uma paleta de quatro cores distintas -- Verifica se cada elemento da paleta de cores tem uma borda preta, sólida e com 1 pixel de largura; (failed).png
+cypress/screenshots/project.spec.js/9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco -- Verifica se o botão está posicionado entre a paleta de cores e o quadro de pixels (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se ao clicar no botão com um valor preenchido, o tamanho do board muda (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se existe um botão com o id `generate-board` (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se existe um input com o id `board-size` (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se nenhum valor for colocado no input ao clicar no botão, um `alert` é exibido com o texto 'Board inválido!' (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se o botão contém o texto 'VQV' (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se o botão está posicionado ao lado do input (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se o input está posicionado entre a paleta de cores e o quadro de pixels (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se o input só aceita número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento `input` (failed).png
+cypress/screenshots/project.spec.js/10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário -- Verifica se o novo quadro tem todos os pixels preenchidos com a cor branca (failed).png
+cypress/screenshots/project.spec.js/11 - Limite o tamanho mínimo e máximo do board -- Verifica se a altura do board é 5 quando um valor menor é colocado no input (failed).png
+cypress/screenshots/project.spec.js/11 - Limite o tamanho mínimo e máximo do board -- Verifica se a altura do board é 50 quando um valor maior é colocado no input (failed).png
+cypress/screenshots/project.spec.js/11 - Limite o tamanho mínimo e máximo do board -- Verifica se a altura máxima do board é 50 (failed).png
+cypress/screenshots/project.spec.js/12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página -- Verifica se a cor preta ainda está presente e é a primeira na sua paleta de cores (failed).png
+cypress/screenshots/project.spec.js/12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página -- Verifica se as cores geradas na paleta são diferentes a cada carregamento da página (failed).png
+cypress/reports/mochawesome.json
