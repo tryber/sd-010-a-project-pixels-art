@@ -1,0 +1,15 @@
+.color {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+.pixel {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: table-cell;
+}
+
