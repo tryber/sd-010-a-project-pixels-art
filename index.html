@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="title">
+                Paleta de Cores
+            </h1>
+        </div>
+    </header>
+        <div id="color-palette">
+        <button class="color" id="black"></button>
+        <button class="color" id="blue"></button>
+        <button class="color" id="red"></button>
+        <button class="color" id="green"></button>
+    </div>
+    <div id="input">
+        <form method="GET">
+            <label for="board-size" min="1">Size</label>
+            <input  type="number" min="5" max="50" placeholder="5" id="board-size" name="size" required>
+            <button id="generate-board">VQV</button>
+        </form>
+        </div>
+    <div id="clearBox">
+        <button id="clear-board">
+            Limpar
+        </button>
+        </div>
+    <main>
+    <div id="pixel-board">
+    </div>
+    <div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
