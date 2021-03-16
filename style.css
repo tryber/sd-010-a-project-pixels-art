@@ -1,0 +1,45 @@
+.color {
+    width: 40px;
+    height: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#color-palette {
+    width:200px; 
+    height:50px; 
+    
+}
+#pixel-board {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    display: block;
+    
+}
+
+.pixel {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+.tr {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+
+#clear-board{
+    cursor: pointer;
+}
