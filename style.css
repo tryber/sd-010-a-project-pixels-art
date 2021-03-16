@@ -1,0 +1,112 @@
+header {
+  text-align: center;
+}
+
+ul , .pixel {
+  padding: 0;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+/* https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button , input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input [ type = 'number' ] {
+  appearance: textfield;
+}
+
+.pixel , .color {
+  border: 1px solid black;
+}
+
+.color {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+
+.color , #clear-board , #generate-board {
+  cursor: pointer;
+}
+
+.pixel {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  transition: 0.4s;
+
+  /*
+  https://trybecourse.slack.com/archives/C01L16B9XC7/p1615336998345200?thread_ts=1615324356.299600&cid=C01L16B9XC7
+  */
+  box-sizing: border-box;
+}
+
+#clear-board , #generate-board {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  border: none;
+  opacity: 0.5;
+  transition: 0.4s;
+
+  /*
+  https://stackoverflow.com/questions/39524688/how-to-remove-the-focus-border-of-button-when-click/39524745
+  */
+  outline: 0;
+}
+
+#clear-board {
+  height: 52px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: rgba(220, 220, 220);
+  color: rgba(85, 85, 85);
+}
+
+#generate-board {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: rgb(108, 194, 140);
+}
+
+#clear-board:hover , #generate-board:hover {
+  opacity: 1;
+}
+
+#input-section {
+  width: 10%;
+  margin: 10px auto;
+  min-width: 201px;
+}
+
+#board-size {
+  text-align: center;
+  background-color: rgba(220, 220, 220);
+  height: 10px;
+  width: 130px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.board-size:focus {
+  border: 1px solid gold;
+}
+
+#clear-board.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
