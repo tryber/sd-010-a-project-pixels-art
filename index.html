@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href='style.css'>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+<h1 id='title'>Paleta de Cores</h1>
+<div id='color-palette'>
+    <div class='color' id='color1'></div>
+    <div class='color' id='color2'></div>
+    <div class='color' id='color3'></div>
+    <div class='color' id='color4'></div>
+</div>
+<br>
+<button id="clear-board" onclick="clearPixelBoard()">Limpar</button>
+<input id='board-size' type="number" min="1" max="50" placeholder="5>= && >=50">
+<button id="generate-board" onclick="boardSizeGenerator()">VQV</button>
+<br>
+<br>
+<div id='pixel-board'>
+
+</div>
+<p>The computed background color for the test div is: <span id="demo"></span></p>
+<script src='script.js'></script>
+
+
+</body>
+</html>
