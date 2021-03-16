@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Pixels Art</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="pixel_art_criador_icone.png" type="image/x-icon">
+</head>
+<body>
+  <div id="container">
+    <img src="/Trybe.png" alt="trybe-logo">
+    <h1 id="title">Paleta de Cores</h1><br>
+    <section id="color-palette">
+      <div id="container-colors">
+        <div id="black" class="color selected" ></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <br>
+        <button id="change-colors">Mudar cores</button>
+      </div>
+      <h2>Cor Selecionada</h2>
+      <div id="colorSelected"></div>
+    </section>
+    <button id="clear-board" >Limpar</button>
+    <label for="board-size">Escolha o tamanho do board:</label>
+    <input type="number" min="1" max="50" name="" id="board-size">
+    <button id="generate-board">VQV</button>
+    <!--Utilizei esse conteúdo para fazer os blocos em table
+    https://stackoverflow.com/questions/29229523/how-and-why-to-use-display-table-cell-css -->
+    <div id="container-board"> 
+      <table id="pixel-board"></table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
