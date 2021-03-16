@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    margin-left: 820px
+}
+
+.color {
+    background-color: white;
+    padding: 20px;
+    border: solid black 1px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.pixel {
+    background-color: white;
+    border: solid 1px black;
+    width: 40px;
+    height: 40px;
+    display: table-cell;
+    padding: 8px;
+}
+
+#color-palette {
+    text-align: center;
+}
+
+#clear-board {
+    margin-left: 780px;
+}
+
+#pixel-board{
+    margin-left: 780px;
+}
