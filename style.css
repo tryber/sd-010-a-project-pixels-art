@@ -1,0 +1,31 @@
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: -3px;
+  padding: -3px;
+}
+
+.color:nth-of-type( 1 ) {
+  background-color: black;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin: -1px;
+  margin-top: -4px;
+  padding: -1px;
+}
+
+#pixel-board {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 15px;
+}

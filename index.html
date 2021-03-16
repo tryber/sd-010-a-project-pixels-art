@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pixels Art</title>
+</head>
+<body>
+
+  <h1 id="title">Paleta de Cores</h1>
+
+  <div id='color-palette'>
+    <div class='color selected'></div>
+    <div class='color'></div>
+    <div class='color'></div>
+    <div class='color'></div>
+  </div>
+
+  <div id='buttonDiv'></div>
+
+  <!-- https://www.w3schools.com/html/html_form_input_types.asp -->
+    
+  <label for="board-size">Altura do quadro de pixels: (entre 5 e 50):</label>
+  <input type="number" id="board-size" name="board-size-input" min="1" max="100" placeholder="Valor">
+  <button id="generate-board" name="board-generator">VQV</button>
+
+  <div id='pixel-board'></div>
+    
+</body>
+<script src="script.js"></script>
+</html>
