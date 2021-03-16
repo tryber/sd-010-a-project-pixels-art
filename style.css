@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+#title {
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+#color-palette {
+  padding-bottom: 20px;
+}
+
+.color {
+  border: 1px black solid;
+  padding: 40px;
+  margin: 5px;
+}
+
+#black-palette {
+  background-color: black;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: white;
+  border: 1px black solid;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel-line {
+  display: block;
+  margin-bottom: -5px;
+}
+
+#clear-board {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#inputs {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+#inputs input {
+  margin-right: 10px;
+}
+
+#inputs button {
+  margin-right: 5px;
+}
