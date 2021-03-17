@@ -1,0 +1,7 @@
+/* REQUISITO 2 */
+
+td {
+    border: 1px solid black;
+    width: 40px; /* REQUISITO 5 */
+    height: 40px; /* REQUISITO 5 */
+}
