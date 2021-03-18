@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(184, 199, 228);
+}
+
+div {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #1211;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+td {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+section {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
