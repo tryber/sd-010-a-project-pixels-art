@@ -1,0 +1,53 @@
+.title {
+  text-align: center;
+}
+
+.color {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: black;
+}
+
+#cor1 {
+  background-color: black;
+}
+
+#cor2 {
+  background-color: rgb(184, 17, 17);
+}
+
+#cor3 {
+  background-color: rgb(28, 53, 129);
+}
+
+#cor4 {
+  background-color: rgb(61, 61, 61);
+}
+
+#pixel-board {
+  position: absolute;
+  top: 180px;
+  left: 10px;
+}
+
+.pixel {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: black;
+  background-color: white;
+}
+
+#clear-board {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+#color-palette {
+  margin-left: 15px;
+}
+
