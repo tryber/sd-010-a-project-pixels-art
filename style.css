@@ -1,0 +1,62 @@
+#title {
+  text-align: center;
+}
+
+#color-palette {
+  display: flex;
+  justify-content: center;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: solid black 1px;
+  margin-left: 100px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+/*
+#cor1 {
+  background-color: black;
+}
+
+#cor2 {
+  background-color: red;
+}
+
+#cor3 {
+  background-color:green;
+}
+
+#cor4 {
+  background-color:blue;
+}
+*/
+
+.linha {
+  display: flex;
+  justify-content: center;
+}
+
+.pixel {
+  height: 40px;
+  width: 40px;
+  background-color:white;
+  border:solid black 1px;
+  margin: 2px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gerador {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
