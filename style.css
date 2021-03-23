@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title , #clear-board {
+  margin-left: 50px;
+}
+
+#color-palette {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 2px;
+  cursor: pointer;
+}
+
+#pixel-board {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.line {
+  display: flex;
+}
+
+.pixel {
+  border: 1px solid black;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#board-size {
+  width: 50px;
+}
+
+#board span {
+  margin-left: 50px;
+}

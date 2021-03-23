@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixels Art Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <h1 id="title">Paleta de Cores</h1>
+
+      <ul id="color-palette">
+        <li class="color selected" id="background-black"></li>
+        <li class="color" id="random-color-1"></li>
+        <li class="color" id="random-color-2"></li>
+        <li class="color" id="random-color-3"></li>
+      </ul>
+
+      <button id="clear-board">Limpar</button>
+      <span>Lines: </span>
+      <input
+        type="number"
+        name="board-size"
+        id="board-size"
+        min="1"
+        max="50"
+        maxlength="50"
+      />
+      <button id="generate-board">VQV</button>
+    </section>
+    <section id="board">
+      <ul id="pixel-board">
+        <div class="line">
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+        </div>
+        <div class="line">
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+        </div>
+        <div class="line">
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+        </div>
+        <div class="line">
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+        </div>
+        <div class="line">
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+          <li class="pixel"></li>
+        </div>
+      </ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
