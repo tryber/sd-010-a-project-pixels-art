@@ -1,0 +1,41 @@
+#clear-board {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: beige;
+}
+
+#title {
+  margin-top: 30px;
+}
+
+.color {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+}
+
+.pixel {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+.pixelLine {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: table-row;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
