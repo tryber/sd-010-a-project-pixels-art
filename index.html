@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixels Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Paleta de Cores</h1>
+    </header>
+
+    <main>
+        <section id="color-palette">
+            <div class="color" id="color-1"></div>
+            <div class="color" id="color-2"></div>
+            <div class="color" id="color-3"></div>
+            <div class="color" id="color-4"></div>
+        </section>
+        <div class="middle-tools">
+        <input type="number" min="1" id="board-size" placeholder="Mude o tamanho do quadro.">
+        <button id="generate-board">VQV</button>
+        <button id="clear-board">Limpar</button>
+        </div>        
+        <table id="pixel-board"></table>
+    </main>
+    <script src='script.js'></script>
+</body>
+</html>
