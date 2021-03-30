@@ -1,0 +1,51 @@
+.color {
+  border: solid 1px black;
+  display: inline-block;
+  height: 100px;
+  margin: 10px;
+  width: 100px;
+}
+
+#cor1 {
+  background-color: black;
+}
+
+#cor2 {
+  background-color: aquamarine;
+}
+
+#cor3 {
+  background-color: greenyellow;
+}
+
+#cor4 {
+  background-color: blueviolet;
+}
+
+#pixel-board {
+  display: table;
+  margin: 10px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: table-cell;
+  height: 40px;
+  padding: 0;
+  width: 40px;
+}
+
+#new-pixel-board {
+  display: table;
+  margin: 10px;
+}
+
+.new-pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: table-cell;
+  height: 40px;
+  padding: 0;
+  width: 40px;
+}
