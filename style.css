@@ -1,0 +1,33 @@
+.color {
+  display: inline-block;
+}
+
+#black {
+  background-color: black;
+}
+
+#second-color {
+  background-color: red;
+}
+
+#third-color {
+  background-color: green;
+}
+
+#fourth-color {
+  background-color: blue;
+}
+
+.color , td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+#pixel-board {
+  display: table;
+}
+
+td {
+  background-color: white;
+}
