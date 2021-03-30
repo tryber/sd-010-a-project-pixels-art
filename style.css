@@ -1,0 +1,41 @@
+* {
+  margin-top: 0;
+}
+
+.margins {
+  margin: 5px 0 0 5px;
+}
+
+section {
+  width: 210px;
+}
+
+.color {
+  border: 1px solid black;
+  display: table-cell;
+  height: 50.5px;
+  width: 50.5px;
+}
+
+input {
+  width: 78px;
+}
+
+button {
+  margin-left: 7.5px;
+}
+
+#pixel-board {
+  height: 13.125em;
+  line-height: 0;
+  width: 13.125em;
+}
+
+/* Requisito 5 */
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" class="css">
+    <title>Pixel Art</title>
+</head>
+
+<body>
+    <!-- Requisito 1 -->
+    <header>
+        <h1 id='title' class='margins'>Paleta de Cores</h1>
+    </header>
+
+    <section id='color-palette' class='margins'>
+        <div class='color selected'></div> <!-- Requisito 6 -->
+        <div class='color'></div>
+        <div class='color'></div>
+        <div class='color'></div>
+    </section>
+
+    <input id='board-size' class='margins' type='number' min='1'>
+    <button id='generate-board'>VQV</button>
+
+    <button id='clear-board'>Limpar</button>
+
+    <div id='pixel-board' class='margins'></div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
