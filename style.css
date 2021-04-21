@@ -1,0 +1,93 @@
+body {
+  background-color: mintcream;
+  margin: 0;
+}
+
+.button-place {
+  height: 30px;
+  margin: 10px auto;
+  text-align: center;
+  width: max-content;
+}
+
+.changeSize-place {
+  height: 30px;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  width: max-content;
+}
+
+.clear {
+  float: right;
+  height: 100%;
+  margin: auto;
+}
+
+.color-palette {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  height: 52px;
+  margin: 0 auto 10px;
+  padding: 10px;
+  text-align: center;
+  width: max-content;
+}
+
+.changeSize-place * {
+  display: inline;
+  margin-left: 10px;
+  position: relative;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.pixel {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel-board {
+  background-color: silver;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding: 3%;
+  text-align: center;
+}
+
+.pixel-board-inside {
+  margin: auto;
+  width: max-content;
+}
+
+.pixel-line {
+  height: 40px;
+  margin: auto;
+  max-width: max-content;
+}
+
+.title {
+  background-image: linear-gradient(to bottom, lawngreen, mintcream);
+  text-align: center;
+}
