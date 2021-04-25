@@ -1,0 +1,57 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  margin-left: 45px;
+}
+
+.color {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid;
+}
+
+#pixel-board {
+  margin-left: 45px;
+}
+
+.pixel {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 1px;
+}
+
+.pixelColum {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 1px;}
+
+.form {
+  display: flex;
+}
+
+.form div {
+  display: flex;
+}
+
+.form div input {
+  height: 16px;
+  align-self: center;
+}
+
+.form button {
+  margin: 5px;
+}
