@@ -1,0 +1,22 @@
+.color , .pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#color1 {
+  background-color: black;
+}
+
+.pixel {
+  background-color: white;
+}
+
+#clear-board {
+  width: 60px;
+  height: 20px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
